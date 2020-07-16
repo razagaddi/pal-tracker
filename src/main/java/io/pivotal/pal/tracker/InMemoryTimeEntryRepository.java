@@ -10,7 +10,7 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 
-@Repository
+
 public class InMemoryTimeEntryRepository implements TimeEntryRepository{
 
     HashMap<Long,TimeEntry> storage = new HashMap<Long,TimeEntry>();
